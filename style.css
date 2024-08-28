@@ -1,134 +1,51 @@
-* {
-    box-sizing: border-box;
+#column{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    align-content: center;
+    flex-direction: column;
     margin: 0;
     padding: 0;
+    border: border-box;
+
 }
 
-body {
-    font-family: Arial, sans-serif;
-}
-
-#bio, #habilidades, #atividades {
+#row{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    padding: 20px;
-    text-align: center;
-}
-
-#bio {
-    background-color: #383131;
-    color: white;
-    min-height: 70vh;
-}
-
-.bio-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#bio-img {
-    width: 200px;
-    height: auto;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-
-.bio-texto {
-    max-width: 600px;
-    text-align: left;
-}
-
-#habilidades {
-    background-color: #EBE3DB;
-    color: black;
-    min-height: 70vh;
-}
-
-.cita {
-    margin-top: 20px;
-    font-style: italic;
-    color: #555;
-}
-
-#atividades {
-    background-color: #383131;
-    color: white;
-    min-height: 70vh;
-}
-
-h2 {
-    margin-bottom: 20px;
-}
-
-p {
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-.atividades-lista {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 0;
     padding: 0;
+    border: border-box;
+    background-color: black;
+    width: 800px;
+    height: 800px;
 }
 
-.atividade {
-    background-color: #EBE3DB;
-    color: black;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    width: 250px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.3s ease;
+.blue{
+background-color: aqua;
+height: 200px;
+width: 200px;
+margin: 0;
+padding: 0;
+border: border-box;
 }
 
-.atividade:hover {
-    transform: scale(1.05);
+.red{
+background-color: red;
+height: 200px;
+width: 200px;
+margin: 0;
+padding: 0;
+border: border-box;
 }
 
-.atividade-img {
-    width: 150px;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-.atividade-link {
-    color: #383131;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    margin-top: 10px;
-}
-
-.atividade-link:hover {
-    text-decoration: underline;
-}
-
-footer {
-    background-color: #383131;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-footer a {
-    color: #EBE3DB;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
+.yellow{
+background-color: yellow;
+height: 200px;
+width: 200px;
+margin: 0;
+padding: 0;
+border: border-box;
 }
